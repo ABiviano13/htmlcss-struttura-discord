@@ -1,0 +1,38 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+
+/* debug */
+.debug .nav{
+    background-color: lightblue;
+    padding: 10px;
+}
+
+.debug .col-nav{
+    border: 1px dashed black;
+    background-color: goldenrod;
+    padding: 8px;
+}
+
+/* proprietà */
+.row-nav{
+    display: flex;
+    justify-content: center;
+}
+.row-nav > .col-nav{
+    flex-basis: 10%;
+}
+.row-nav > .col-30{
+    flex-basis: 30%;
+    text-align: center;
+}
+.row-nav > .col-end{
+    text-align: end;
+}
+
