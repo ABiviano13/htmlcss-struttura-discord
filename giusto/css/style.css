@@ -48,6 +48,13 @@ img{
 .debug .squaretwo{
     background-color: pink;
 }
+.debug .containerbig{
+    padding: 200px;
+}
+.debug .square-big{
+    background-color: green;
+    padding: 40%;
+}
 
 /* proprietà */
 
@@ -75,8 +82,7 @@ img{
 }
 
 /* contenitori */
-
-.container > .row{
+.row{
     display: flex;
     justify-content: center;
 }
@@ -87,3 +93,6 @@ img{
     flex-basis: 10%;
 }
 
+.row .square-big{
+    flex-basis: 80%;
+}
