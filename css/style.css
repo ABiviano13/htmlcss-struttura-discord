@@ -8,49 +8,55 @@ img {
 	max-width: 100%;
 }
 
-.container {
-	max-width: 900px;
-	margin: 0 auto;
-}
 
 /* debug */
-.debug .row{
+.debug .row-nav{
     background-color: rgb(133, 237, 249);
     padding: 10px;
 }
-.debug .col{
+.debug .col-nav{
     background-color: goldenrod;
     border: 1px dashed black;
     padding: 5px;
 }
+.debug .container{
+    padding: 30px;
+}
 .debug .container-header{
     background-color: blue;
-    padding: 30px;
 }
 .debug .square-header{
     background-color: violet;
-    padding: 200px;
+    padding: 150px;
 }
+
+.debug .container-white{
+    background-color: white;
+}
+.debug .container-lightgray{
+    background-color: lightgray;
+} 
 
 
 /* proprietà */
-.row{
+.container{
     display: flex;
     justify-content: center;
 }
-.col{
+
+.row-nav{
+    display: flex;
+    justify-content: center;
+}
+.col-nav{
     flex-basis: 15%;
 }
-.row > .col-30{
+.row-nav > .col-30{
     flex-basis: 30%;
     text-align: center;
 }
-.row > .col-end{
+.row-nav > .col-end{
     text-align: end;
-}
-.container-header{
-    display: flex;
-    justify-content: center;
 }
 .square-header{
     flex-basis: 40%;
